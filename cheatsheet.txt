@@ -1,0 +1,125 @@
+scanf("%s %d",str, &i); scanf("%[^\n]", message); 
+char c, c= getchar(), putchar(c)|| 
+float: “%.2f”;
+int v= ‘5’-'0';
+pointer: int *ptr, ptr=&var, 
+char *ptr=str; print(*ptr); 
+
+string: while(str[i]!=’\0’)
+
+strcpy(s1,s2), strcat(s1,s2), stelen(s), 
+strcmp(s1,s2)-0, strchr(s1,a), strstr(s1,s2),
+
+struct books{char sub[100];}, 
+struct Books b1, strcpy(b1.sub, "h"); scanf(“%d”,&b1.q);
+—------------------------
+functions: void swap(int *n1, int *n2); 
+ *x=*y; swap(&a,&b); 
+-----------------
+FILE *fp; fp=fopen("t.txt", "r"); 
+fscanf(fp,"%[^\n]s",buff); 
+fgets(buff,255,fp);
+fgets(input, sizeof(input), stdin); 
+W: fprintf(fp,"Hi");  while ((feof(f))!=1) ; while ((c = fgetc(fptr1)) != EOF) {fputc(c, fptr2); }; while(fscanf(f1,"%s",s1)!=EOF){ -scan for string fgetc for char
+
+
+cmd: int main(int argc, char *argv[]), 
+str to int: atoi(argv[1])
+----
+sys call: O_RDONLY, O_WRONLY, O_RDWR, O_APPEND, O_TRUNC, O_CREAT
+Int fd; fd = open(“filename.txt”,O_RDWR|O_CREAT |O_TRUNC);
+ scanf("%[^\n]", message);
+lseek(fd,5,SEEK_SET), +-SEEK_CUR, SEEK_END
+---fd = open("myfile",O_RDWR);  read(fd, buffer, size); 
+write(fd, message, sizeof(message)); 
+
+
+--------------------
+while (str[i]!='\0'), 
+printf("%.2f"), 
+sprintf(msg, "%d", a);
+ execl("./filename", "./filename", "1", "2");
+
+
+—-------------threads—-----
+void *t_func1(void *arg); 
+void *t_ret;
+Main- pthread_t t[5]; 
+pthread_create(&t[i],NULL,(void *)t_func1,&i); 
+int *x=arg;
+pthread_join(t[i],&t_ret); 
+pthread_exit(sum);
+store[i] = (int)t_ret;
+—---------------LOCK
+sem_t sem; 	
+int sem_wait(sem_t * sem); 
+int sem_post(sem_t * sem);
+
+sem_t s;
+ sem_init(&s,0,3); 
+ sem_wait(&s); 
+ sem_post(&s); || 
+pthread_mutex_t mutex; 
+pthread_mutex_init(&mutex,NULL); 
+pthread_mutex_destroy(&mutex); 
+pthread_mutex_lock(&mutex);
+—---
+int pthread_mutex_lock(pthread_mutex_t * mutex); 
+int pthread_mutex_unlock(pthread_mutex_t * mutex);
+—
+pthread_cond_t  value= PTHREAD_COND_INITIALIZER; 
+pthread_cond_wait(&signal,&mutex); 
+pthread_cond_signal(&signal);
+—
+int customer_id= *(int *)arg;
+–
+int n = sizeof(arr) / sizeof(arr[0]); 
+–while (buffer[0] == '\0')
+—-----------------—
+Strings:Strcpy Strcat Strlen Strcmps Strchr Strstr strtok Islower isupper isdigit atoi
+strstr(mail, "@sheba.xyz") —char *token = strtok(buffer, " ");
+token = strtok(NULL, " "); 
+— execl("/bin/ls","ls",NULL)
+
+ printf("%d",(int)t_ret_sum); 
+ 
+ sprintf(store2,"SUM: %d\n",(int)t_ret_sum); 
+ 
+ write(fd,store2,strlen(store2)); 
+ 
+ pthread_exit((void *)sum);
+ 
+//get array from *arg :  int *arr=(int *)arg; arr[i]; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:~/cse321ass1$ mkdir shihab1
+~/cse321ass1$ touch 21301610_1.txt
+~/cse321ass1$ mv 21301610_1.txt shihab1
+~/cse321ass1/shihab1$ cp 21301610_1.txt 21301610_2.txt ~/cse321ass1/shihab2
+~/cse321ass1$ cp -r shihab1 shihab3
+~/cse321ass1/shihab3$ ls -l
+~/cse321ass1/shihab3$ chmod -R 755 shihab1
+~/cse321ass1$ ls
+~$ rm -r cse321ass1
+B:~/taskb$ cat>course.txt
+~/taskb$ grep "CSE" course.txt
+~/taskb$ grep -c "CSE" course.txt
+~$ ls -a
+~/taskd$ sed -n '5,17p' a.txt
+Permission:
+Chmod go-x myfile, Chmod go+r,go-w myfile, Chmod go=r,u=rw myfile Chmod +w myfile
+
