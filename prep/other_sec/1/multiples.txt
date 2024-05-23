@@ -1,0 +1,4 @@
+START:
+Multiple no 1 is 0 
+Multiple no 2 is 5 
+Multiple no 3 is 10 
